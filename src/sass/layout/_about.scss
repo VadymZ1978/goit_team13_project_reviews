@@ -1,0 +1,204 @@
+.about {
+  padding-top: 60px;
+  background-color: var(--first-bg-color);
+
+        &__text {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        }
+
+        &__title {
+          text-align: center;
+        }
+
+        &__img {
+          margin-top: 32px;
+          margin-bottom: 40px;
+        }
+
+        &__text-info {
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 1.58;
+          color: var(--main-color);
+          width: 220px;
+          padding-bottom: 40px;
+          // padding-right: 80px;
+          text-align: start;
+
+              @media screen and (min-width: 768px) {
+                font-size: 14px;
+                line-height: 1.79;
+                width: 334px;
+                padding-bottom: 32px;
+              }
+              @media screen and (min-width: 1200px) {
+                font-size: 16px;
+                line-height: 1.75;
+                width: 463px;
+                padding-bottom: 32px;
+              }
+          }
+
+          &__text-label {
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 1.58;
+            color: #907E82;
+            width: 220px;
+
+                    @media screen and (min-width: 768px) {
+                      font-size: 14px;
+                      line-height: 1.79;
+                      width: 334px;
+                    }
+            
+                    @media screen and (min-width: 1200px) {
+                      font-size: 16px;
+                      line-height: 1.75;
+                      width: 463px;
+                    }
+          }
+          
+          &__list {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            position: relative;
+                  @media screen and (min-width: 768px) {
+                    display: flex;
+                    flex-direction: row;
+                    padding-top: 40px;
+                    gap: 32px;
+                  }
+            
+                  @media screen and (min-width: 1200px) {
+                    display: flex;
+                    flex-direction: row;
+                    padding-top: 150px;
+                    gap: 99px;
+                  }
+          }
+
+          &__item {
+                @media screen and (min-width: 1200px) {
+                  padding-top: -120px;
+                }
+          }
+
+          &__item-foto {
+            position: absolute;
+            bottom: 150px;
+            animation-duration: 2000ms;
+            z-index: 0;
+            animation: animate__zoomInDown;
+            display: inline-block;
+            
+                @media screen and (min-width: 768px) {
+                  display: none;
+                }
+          }
+
+          &__button {
+            width: 176px;
+            height: 44px;
+            background-color: var(--first-bg-color);
+            border-radius: 22px;
+            color: var(--brand-color);
+            margin-top: 20px;
+            text-align: center;
+
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.29;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+          }
+
+          &__button-img {
+            margin-left: 13px;
+          }
+  
+          &__logo {
+            padding-top: -120px;
+          }          
+  //background-color: #fff5f6;
+}
+
+.about__text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboud__title {
+  text-align: center;
+}
+.about__img {
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+
+.about__text-info {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.58;
+  color: #000000;
+  padding-bottom: 40px;
+  padding-right: 80px;
+  text-align: start;
+}
+
+.aboud__text-label {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.58;
+  color: #907e82;
+  padding-right: 80px;
+}
+
+.about__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about__item-foto {
+  position: absolute;
+  bottom: 160px;
+}
+.about__list-info {
+  position: relative;
+}
+
+.about__button {
+  width: 176px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 22px;
+  color: #d41443;
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.29;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.about__button-img {
+  margin-left: 13px;
+}
