@@ -1,0 +1,258 @@
+.container-bg {
+  width: 100%;
+  background-image: linear-gradient(#ffffff 21%, #fff5f6 21%);
+}
+.cities {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.chicago {
+  padding: 40px 32px;
+  max-width: 280px;
+  background: var(--third-color);
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+
+  &_cafe {
+    width: 80px;
+    margin-bottom: 20px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.86;
+
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: var(--third-color);
+    background: #f0d1a5;
+    border-radius: 4px;
+  }
+  &_citi {
+    margin: 0px;
+    margin-bottom: 8px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.86;
+    letter-spacing: 0.04em;
+
+    color: var(--main-color);
+  }
+  &_description {
+    margin-bottom: 24px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+
+    color: #907e82;
+  }
+
+  &_timetable {
+    padding: 24px 0;
+  }
+  &_day {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.86;
+
+    color: var(--main-color);
+  }
+  &_time {
+    margin-bottom: 8px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.86;
+
+    color: #ffa5ba;
+  }
+  &_tel {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+
+    color: #907e82;
+  }
+  &_contacts {
+    margin-top: 24px;
+  }
+}
+hr {
+  margin: 0;
+  width: 100%;
+  border: 1px solid #e1e1e1;
+  background-color: #e1e1e1;
+}
+.los-angeles_cafe {
+  margin-bottom: 20px;
+  width: 130px;
+  text-align: center;
+  background: #c2e297;
+  border-radius: 4px;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.86;
+  letter-spacing: 0.04em;
+
+  color: var(--third-color);
+}
+.chicago_btn {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.locations_btn {
+  width: 161px;
+  height: 44px;
+  padding: 12px 20px;
+  border: none;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31px;
+
+  color: var(--third-color);
+  background: #d41342;
+  border-radius: 22px;
+
+  &_pointer {
+    margin-left: 11px;
+    fill: #ffffff;
+  }
+}
+.franchise_btn {
+  width: 161px;
+  height: 44px;
+  padding: 12px 20px;
+  border: none;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31px;
+
+  color: #d41443;
+  background: #fff;
+  border-radius: 22px;
+
+  &_pointer {
+    margin-left: 13px;
+    fill: #ffffff;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cities {
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 32px;
+  }
+  .chicago {
+    width: 224px;
+    &_cafe {
+      margin-bottom: 32px;
+      width: 73px;
+      font-size: 14px;
+    }
+    &_citi {
+      margin-bottom: 12px;
+      font-size: 14px;
+    }
+    &_description {
+      margin-bottom: 32px;
+
+      font-size: 14px;
+      line-height: 1.66;
+    }
+    &_timetable {
+      padding: 32px 0;
+    }
+    &_day {
+      font-size: 14px;
+    }
+    &_time {
+      margin-bottom: 12px;
+
+      font-size: 14px;
+    }
+    &_tel {
+      font-size: 14px;
+      line-height: 1.83;
+    }
+    &_contacts {
+      margin-top: 32px;
+    }
+  }
+  .los-angeles_cafe {
+    margin-bottom: 32px;
+    width: 138px;
+    font-size: 16px;
+  }
+  .chicago_btn {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .chicago {
+    width: 368px;
+    &_cafe {
+      width: 75px;
+      font-size: 16px;
+    }
+    &_citi {
+      margin-bottom: 8px;
+      font-size: 16px;
+    }
+    &_description {
+      font-size: 16px;
+      line-height: 1.83;
+    }
+    &_day {
+      font-size: 16px;
+    }
+    &_time {
+      font-size: 16px;
+    }
+    &_tel {
+      font-size: 16px;
+    }
+  }
+  .los-angeles_cafe {
+    width: 138px;
+
+    font-size: 16px;
+  }
+  .chicago_btn {
+    gap: 12px;
+  }
+}
+
